@@ -23,8 +23,14 @@ When your work in complete, push up the branch (`git push origin quiz`) and subm
 ### Code/Tools Requirements
 
 1. Use ES6 language features wherever you can. At a minimum, you should be using **let**, **const**, fat arrows, property shorthand, method properties, and string templates.
-1. Have a Gulp task running at all times to validate your JavaScript. We will be validating your project and we should see 0 errors.
-1. You must have a test suite that validates the core logic of the application.
+1. Have a Grunt task running at all times to validate your JavaScript. We will be validating your project and we should see 0 errors.
+1. You must have a test suite that validates the core logic of the application.  
+Some things to test:
+   + Your attack function does damage to the robot(s)
+   + Instantiation of new objects creates the inheritance you expect
+   + Calculations for health, damage, armor, etc work properly
+   + Passing in arguments to set properties like `name` or `number of arms` creates those properties
+
 1. You must use jQuery for interacting with the DOM.
 
 ### Base Logical Requirements
@@ -56,7 +62,7 @@ These are **completely** optional, once you have the basic requirements met and 
 
 1. Define at least six different modifications and six different weapons that can be added to a robot.
 1. Each modification should provide some combination of the following benefits - increased protection, increased damage, or evasion capability (ability to avoid some attacks).
-1. Define the range of damage that each weapon can do. 
+1. Define the range of damage that each weapon can do.
 
 
 ### Bonus Functional Requirements
@@ -76,20 +82,3 @@ If you have completed the base requirements, and want to explore object composit
 1. When the battle is over display the outcome to the user. For example...
 
 ##### The Viper Drone defeated the Behemoth ATV with its flamethrower.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
