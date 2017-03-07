@@ -1,22 +1,22 @@
-# Modern JavaScript Developer Quiz
+# Modern JavaScript Developer Milestone Challenge
 # Robot Battledome
 
 ## Setup
 
-1. `cd` to your quizzes directory.
+1. `cd` to your challenges directory.
 1. Clone this repository and `cd` into the directory it creates.
 1. Now run the following commands.
 
     ```bash
-    git checkout -b quiz
+    git checkout -b challenge
     touch index.html
-    touch quiz.js
-    touch quiz.css
+    touch challenge.js
+    touch challenge.css
     ```
 
-You are now ready to work in the `quiz` branch.
+You are now ready to work in the `challenge` branch.
 
-When your work in complete, push up the branch (`git push origin quiz`) and submit the pull request on Github.
+When your work in complete, push up the branch (`git push origin challenge`) and submit the pull request on Github.
 
 ## Instructions
 
